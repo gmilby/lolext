@@ -1,0 +1,12 @@
+{
+  "name": "LOLDentist",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Daniel's crazy, what can I say.",
+  "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*", "http://www.twitter.com/*", "https://www.twitter.com/*", "http://twitter.com/*", "https://twitter.com/*"],
+      "js": ["jquery.js", "lol.js"]
+    }
+  ]
+}
